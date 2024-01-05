@@ -1,0 +1,24 @@
+{
+    "name": "bjm0001/utils",
+    "description": "常用函数封装",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bjm0001\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "benjamin",
+            "email": "benjamin01@foxmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "phpstan/phpstan": "^1.10"
+    },
+  "require": {
+    "ext-bcmath": "*"
+  }
+}
